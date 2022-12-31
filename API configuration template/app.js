@@ -11,7 +11,7 @@ app.get('/', function(req,res){   //define a route for an HTTP get request to th
   res.send("Hello") //when a root path is requested , an anonymous function is executed and a response "Hello" is sent
 });
 
-app.post('/', function(req,res){ //set up a route handler for an HTT POST request which receives a form submission with a username field
+app.post('/', function(req,res){ //set up a route handler for an HTTP POST request which receives a form submission with a username field
   req.body.username //retrieves the value of the username field from the request body
 })
 

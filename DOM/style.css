@@ -1,0 +1,12 @@
+.btn {
+  height: 30px;
+  width: 80px;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.huge {
+  font-size: 10rem;
+}
